@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+  }
+body
+{
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+
+.box1
+{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: #161616;
+}
+#box
+{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    z-index: 1;
+    
+}
+.box1 h1 span
+{
+   
+    color: #db1a1c;
+  
+    
+}
+.box1 h1
+{
+    
+    color: white;
+    font-family: Lato;
+    font-size: 0.9em;
+}
+.box1 h2
+{
+    font-size: 2.4em;
+    color: white;
+    font-family: Trebuchet MS;
+    line-height: 0;
+
+}
+.box1 p
+{
+    color: rgb(126, 126, 126);
+    width: 60%;
+    font-family: Arial;
+    font-size: 0.9em;
+}
+.box1 a
+{
+    
+    background: none;
+    color: #db1a1c;
+    border: none;
+    font-size: 0.9em;
+    font-family: Trebuchet MS;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+#span
+{
+    color: #db1a1c;
+}
+.box2
+{
+    position: fixed;
+    width: 55%;
+    height: 100%;
+    left: 45%;
+    background: #db1a1c;
+}
+.box2 img
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    z-index: 1;
+}
+#text
+{
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    z-index: 0;
+    
+}
+#txt
+{
+    position: absolute;
+    left: 55%;
+    top: 46%;
+    width: 58%;
+}
+#buton
+{
+    display: flex;
+    width: 28%;
+    position: absolute;
+    left: 75%;
+    top: 20%;
+    z-index: 1;
+     
+
+}
+#shear
+{
+    position: absolute;
+    left: 92%;
+    top: 92%;
+    width: 27%;
+}
+.trailer
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(48, 48, 48, 0.95);
+    width: 100%;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+
+}
+.close
+{
+    position: absolute;
+    top: 5%;
+    left: 90%;
+    width: 5%;
+   
+}
+.trailer.active
+{
+    visibility: visible;
+    opacity: 1;
+}
+.trailer video
+{
+    max-width: 900px;
+    outline: none;
+}
+#a
+{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 45%;
+    color: white;
+    font-family: Arial;
+    font-size: 0.8em;
+    
+}
+#a span
+{
+   
+    color: #db1a1c;
+  
+    
+}
+#b
+{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 50%;
+    color: white;
+    font-family: Arial;
+    font-size: 0.9em;
+    line-height: 0;
+}
+#part
+{
+position: fixed;
+margin-top: 24%;
+margin-left: -12%;
+width: 40%;
+
+}
+#logo
+{
+    position: absolute;
+    top: -180%;
+    left: -25%;
+}
+
+#path
+{
+    position: absolute;
+    width: 190%;
+    left: -8%;
+    top: 60%;
+}
+
+
+
+.icon
+{
+    position: absolute;
+    left: 55%;
+}
+.icon img
+{
+    
+    width: 15%;
+
+}
+
+  
+
+
+
+  
+  

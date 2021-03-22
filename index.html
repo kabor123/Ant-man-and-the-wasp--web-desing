@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>...</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="all" id="sec">
+            <div class="box1">
+                <div id="box">
+    <a onclick="toggle()" href="#"><img id="buton" src="buton.png" alt=""></a>
+       <img id="logo" src="logo.png" alt="">
+     <img id="part" src="part.png" alt="">
+      <h1><span>—</span>  July 6,2018</h1>
+  <h2>ANT-MAN&THE WASP</h2>
+ <h3 id="a"><span>—</span> July 6,2018</h3>
+ <h4 id="b">The Wasp(Janel stev)</h4>
+ <p>Is an upcoming American superhero film based on the Marvel Comic charcters Scatt lang/Ant-Man and Hope van Dayne/Wasp</p>
+ <span id="span">-</span><a href="#">SEE MORE</a>
+ </div>
+ <div class="icon">
+                              <ul>
+             <img src="twitter.png" alt="">
+             <img src="instagram.png" alt="">
+             <img src="youtube.png" alt="">
+             
+                                  </ul>
+                    
+                   
+                </div>
+            </div>
+            <div class="box2">
+                <img src="Ant-Man.png" alt="">
+                <img id="text" src="text.png" alt="">
+                <img id="txt" src="txt.png" alt="">
+                <img id="path" src="path.png" alt="">
+                <a href="#"><img id="shear" src="shear.png" alt=""></a>
+            </div>
+            <div class="trailer">
+                <video src="trailer.mp4" controls="true"></video>
+               <a href="#"> <img src="close.png" class="close" onclick="toggle()"></a>
+            </div>
+                <script type="text/javascript">
+                function toggle(){
+                    var trailer = document.querySelector('.trailer');
+                    var video = document.querySelector('video');
+                    trailer.classList.toggle('active')
+                    video.currentTime = 0;
+                    video.pause();
+                }
+                </script>
+
+    </body>
+</html>
